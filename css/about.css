@@ -1,0 +1,19 @@
+.main {
+	background: url(../img/about_cover.JPG) no-repeat center center;
+	background-size: cover;
+	height: 400px;
+	color: #fff;
+	padding: 60px 0;
+}
+
+.main img {
+	height: 200px;
+	vertical-align: middle;
+	margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+	.main {
+		height: auto;
+	}
+}

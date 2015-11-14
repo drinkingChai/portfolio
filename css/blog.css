@@ -1,0 +1,27 @@
+.main {
+	color: white;
+	background-color: #000;
+}
+
+.main .container {
+	background: url(../img/cover4.JPG) no-repeat center;
+	background-size: cover;
+	padding: 40px 0;
+}
+
+.post {
+	background-color: #F8F9F4;
+	color: #000;
+	padding: 20px 60px;
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+
+.post-date {
+	font-style: italic;
+	font-size: 15px;
+	padding: 20px 20px 15px;
+	border-top: 1px #332d2d solid;
+	background-color: #332d2d;
+	opacity: 0.7;
+}

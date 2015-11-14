@@ -1,0 +1,27 @@
+.main {
+	color: white;
+}
+
+.contact {
+	margin: 30px auto;
+}
+
+.google a,.linkedin a,.facebook a,.twitter a {
+	color: #000;
+}
+
+.google a {
+	background-color: #EA4234;
+}
+
+.linkedin a {
+	background-color: #006DA6;
+}
+
+.facebook a {
+	background-color: #425F9C;
+}
+
+.twitter a {
+	background-color: #659FCB;
+}
