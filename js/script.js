@@ -1,4 +1,26 @@
 var main = function() {
+	$('.scrollTop').hide();
+
+	$(document).scroll(function() {
+		var y = $(this).scrollTop();	//scrollTop is 
+		
+		if (y > 50) {
+			$('.scrollTop').fadeIn();
+		} else {
+			$('.scrollTop').fadeOut();
+		}
+	});
+
+
+
+
+
+
+
+
+
+
+
 	$('.login').click(function() {
 		$(this).next($('.dropdown-menu')).toggle();
 	})
