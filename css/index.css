@@ -1,0 +1,38 @@
+.main {
+	background: url(../img/cover3.JPG) no-repeat center center;
+	background-size: cover;
+	/*background: url(footer_lodyas.png) repeat;*/
+	height: 500px;
+	padding-top: 70px;
+	text-align: center;
+	color: #fff;
+}
+
+.scrollTop {
+	position: fixed;
+	background-color: #ff2d2d;
+	color: #fff;
+	width: 100px;
+	height: 50px;
+	top: 80%;
+	right: 0;
+	padding: 15px 0;
+}
+
+.scrollTop .triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 30px 30px 30px;
+	border-color: transparent transparent #ff2d2d transparent;
+	margin-top: -30px;
+	margin-left: 10px;
+}
+
+.scrollTop a {
+	text-decoration: none;
+}
+
+.scrollTop a:visited {
+	color: #fff;
+}
