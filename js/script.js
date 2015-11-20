@@ -1,16 +1,20 @@
 var main = function() {
-	$('.scrollTop').hide();
+	$('.footer').hide();
 
 	$(document).scroll(function() {
 		var y = $(this).scrollTop();	//scrollTop is 
 		
 		if (y > 50) {
-			$('.scrollTop').fadeIn();
+			$('.footer').fadeIn();
 		} else {
-			$('.scrollTop').fadeOut();
+			$('.footer').fadeOut();
 		}
 	});
 
+
+	$('.topButton').click(function() {
+		$(document.body).animate({scrollTop : 0}, 800);
+	})
 
 
 
