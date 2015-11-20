@@ -1,13 +1,13 @@
 var main = function() {
 	$('.footer').hide();
 
-	$(document).scroll(function() {
-		var y = $(this).scrollTop();	//scrollTop is 
+	$(document).scroll(function() {		//captures scroll events
+		var y = $(this).scrollTop();	//gets the position of the top of the page
 		
-		if (y > 50) {
-			$('.footer').fadeIn();
+		if (y > 50) {					//if the offset by scroll event is more than 50 from the top (50 unites/pixels?) 
+			$('.footer').fadeIn();		//fade in the footer
 		} else {
-			$('.footer').fadeOut();
+			$('.footer').fadeOut();		//otherwise, fade out the footer
 		}
 	});
 
@@ -17,7 +17,19 @@ var main = function() {
 	})
 
 
+	$('.btnPortfolio').click(function() {
+		//button to animate to portfolio element
+		$(document.body).animate({
+			scrollTop: $('.portfolio').offset().top 	//offset the scroll from the top to the target element
+		}, 800);
+	})
 
+	$('.btnAbout').click(function() {
+		//button to animate to about element
+		$(document.body).animate({
+			scrollTop: $('.about').offset().top
+		}, 800);
+	})
 
 
 
