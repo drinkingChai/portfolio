@@ -9,10 +9,6 @@ html,body {
 	max-width: 970px;
 }
 
-.header {
-	background-color: #332d2d;
-}
-
 .header ul {
 	float: right;
 }

@@ -1,13 +1,16 @@
 var main = function() {
 	$('.footer').hide();
 
-	$(document).scroll(function() {		//captures scroll events
-		var y = $(this).scrollTop();	//gets the position of the top of the page
+	$(document).scroll(function() {				//captures scroll events
+		var y = $(this).scrollTop();			//gets the position of the top of the page
+		var mainTop = $('.main').offset().top;	//gets the position of the top of the main element
 		
-		if (y > 50) {					//if the offset by scroll event is more than 50 from the top (50 unites/pixels?) 
-			$('.footer').fadeIn();		//fade in the footer
+		if (y > mainTop) {						//if the offset by scroll event is more than 50 from the top (50 unites/pixels?) 
+			$('.footer').fadeIn();				//fade in the footer
+			$('.header').fadeOut();
 		} else {
-			$('.footer').fadeOut();		//otherwise, fade out the footer
+			$('.footer').fadeOut();				//otherwise, fade out the footer
+			$('.header').fadeIn();
 		}
 	});
 
