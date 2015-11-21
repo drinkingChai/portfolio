@@ -2,69 +2,22 @@ html,body {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
-	background-color: #1e1c1c;
+	/*background-color: #1e1c1c;*/
 }
 
 .container {
 	max-width: 970px;
 }
 
-.header ul {
-	float: right;
-}
 
-.header li {
-	display: inline-block;
-	margin: 0;
-}
 
-.header .active {
-	background-color: #ff2d2d;
-}
 
-.header ul.nav li a:hover {
-	background-color: #ff2d2d;
-}
 
-.header a {
-	color: #fff;
-	transition: all 0.2s ease-out;
-}
 
-.header .dropdown-menu {
-	right: 0px;
-	left: auto;
-	width: 330px;
-	border-radius: 0;
-	padding: 20px 20px;
-	background-color: #332d2d;
-	color: #fff;
-}
 
-.header .dropdown-menu h3 {
-	margin-top: 5px;
-}
 
-.header .dropdown-menu input {
-	border-radius: 0;
-}
-
-.header .dropdown-menu button {
-	background-color: #ff2d2d;
-}
-
-.header .dropdown-menu button:hover {
-	color: #fff;
-}
-
-.email-error, .password-error {
-	color: #ff2d2d;
-	line-height: 10px;
-	font-size: 13px;
-}
 
 .supporting {
-	background-color: #000;
 	padding: 60px 0 50px;
 }
 
