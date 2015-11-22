@@ -10,12 +10,13 @@ var main = function() {
 			$('.header').fadeOut();
 		} else {
 			$('.footer').fadeOut();				//otherwise, fade out the footer
-			$('.header').fadeIn();
+			$('.header').slideDown('fast');
 		}
 	});
 
 
 	$('.topButton').click(function() {
+		//button to animate to top of page
 		$(document.body).animate({scrollTop : 0}, 800);
 	})
 
