@@ -3,10 +3,8 @@
 	<head>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
-		<link rel="stylesheet" href="remodal/dist/remodal.css">
-		<link rel="stylesheet" href="remodal/dist/remodal-default-theme.css">
 		<link rel="stylesheet" href="css/index.css">
-		<title>Wasif DevOps|Home</title>
+		<title>Wasif Zaman</title>
 	</head>
 	<body>
 
@@ -21,8 +19,8 @@
 						<ul class="nav">
 							<li><a class="btnPortfolio">Portfolio</a></li>
 							<li><a class="btnAbout">About</a></li>
-							<li><a class="btnContact" href="#contactModal">Contact</a></li>
-							<li><a href="https://github.com/drinkingTea">GitHub</a></li>
+							<li><a class="btnContact">Contact</a></li>
+							<li><a href="https://github.com/drinkingTea" target="_blank">GitHub</a></li>
 							<li><a class="login" href="#">Login</a>
 								<div class="dropdown-menu">
 				                	<h3>Log in</h3>
@@ -105,23 +103,48 @@
 		</div>
 
 
+		<div class="supporting contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<h3>Contact Me</h3>
+						<p>teatocode@gmail.com</p>
+						<p>516 225 9976</p>
+						<h5>Leave me a comment!</h5>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="inputEmail" placeholder="EMAIL">
+								<textarea class="form-control" placeholder="COMMENT"></textarea>
+								<div class="btnHolder">
+									<button type="submit" class="btn btn-default">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="footer">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2">
-						<p>WASIF ZAMAN</p>
+						<ul class="nav">
+							<li><a class="btnTop">WASIF ZAMAN</a></li>
+						</ul>
 					</div>
 					<div class="col-md-8">
 						<ul class="nav">
 							<li><a class="btnPortfolio">Portfolio</a></li>
 							<li><a class="btnAbout">About</a></li>
-							<li><a class="btnContact" href="#contactModal">Contact</a></li>
-							<li><a href="https://github.com/drinkingTea">GitHub</a></li>
+							<li><a class="btnContact">Contact</a></li>
+							<li><a href="https://github.com/drinkingTea" target="_blank">GitHub</a></li>
 						</ul>
 					</div>
 					<div class="col-md-2">
 						<ul class="nav">
-					 		<li><a class="topButton">Top</a></li>
+					 		<li><a class="btnTop">Top</a></li>
 				 		</ul>
 					</div>
 				</div>
@@ -129,18 +152,7 @@
 		</div>
 
 
-		<div class="remodal" data-remodal-id="contactModal">
-			<button data-remodal-action="close" class="remodal-close"></button>
-			<h1>Wasif Zaman</h1>
-			<p>teatocode@gmail.com</p>
-			<p>Phone: 516 225 9976</p>
-			<br>
-			<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-		</div>
-
-
 		<script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
-		<script src="remodal/dist/remodal.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -15,7 +15,7 @@ var main = function() {
 	});
 
 
-	$('.topButton').click(function() {
+	$('.btnTop').click(function() {
 		//button to animate to top of page
 		$(document.body).animate({scrollTop : 0}, 800);
 	})
@@ -32,6 +32,13 @@ var main = function() {
 		//button to animate to about element
 		$(document.body).animate({
 			scrollTop: $('.about').offset().top
+		}, 800);
+	})
+
+	$('.btnContact').click(function() {
+		//button to animate to contact element
+		$(document.body).animate({
+			scrollTop: $('.contact').offset().top
 		}, 800);
 	})
 
