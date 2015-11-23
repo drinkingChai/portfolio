@@ -3,8 +3,9 @@
 	<head>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+		<link rel="stylesheet" href="remodal/dist/remodal.css">
+		<link rel="stylesheet" href="remodal/dist/remodal-default-theme.css">
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/all-page-style.css">
 		<title>Wasif DevOps|Home</title>
 	</head>
 	<body>
@@ -20,7 +21,7 @@
 						<ul class="nav">
 							<li><a class="btnPortfolio">Portfolio</a></li>
 							<li><a class="btnAbout">About</a></li>
-							<li><a class="btnContact">Contact</a></li>
+							<li><a class="btnContact" href="#contactModal">Contact</a></li>
 							<li><a href="https://github.com/drinkingTea">GitHub</a></li>
 							<li><a class="login" href="#">Login</a>
 								<div class="dropdown-menu">
@@ -96,7 +97,7 @@
 						<p>I am a cyclist! Although I have been doing it for just 2 years, I identify as one. I give my all to the things that I love to do. As I have decided on a path for cycling, I have done so for computers as well.
 						</p>
 
-						<p>My passion grew from a younger age when I had to figure out how to update my computer to play a video game. Then after testing the water in many aspects of computing, I have decided to pursue a career of Syste Administrator. To that end, I have been working as a Senior System Analyst at a firm for charter schools, aggressively studying and gaining knowledge to be a Sys Admin.
+						<p>My passion grew from a younger age when I had to figure out how to update my computer to play a video game. Then after testing the water in many aspects of computing, I have decided to pursue a career of Syste Administrator. To that end, I have been working as a Senior System Analyst at a MSP firm for charter schools, aggressively studying and gaining knowledge to be a Sys Admin.
 						</p>
 					</div>
 				</div>
@@ -114,7 +115,7 @@
 						<ul class="nav">
 							<li><a class="btnPortfolio">Portfolio</a></li>
 							<li><a class="btnAbout">About</a></li>
-							<li><a class="btnContact">Contact</a></li>
+							<li><a class="btnContact" href="#contactModal">Contact</a></li>
 							<li><a href="https://github.com/drinkingTea">GitHub</a></li>
 						</ul>
 					</div>
@@ -128,8 +129,18 @@
 		</div>
 
 
+		<div class="remodal" data-remodal-id="contactModal">
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<h1>Wasif Zaman</h1>
+			<p>teatocode@gmail.com</p>
+			<p>Phone: 516 225 9976</p>
+			<br>
+			<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+		</div>
+
 
 		<script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+		<script src="remodal/dist/remodal.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
