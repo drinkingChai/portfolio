@@ -1,8 +1,10 @@
 var main = function() {
 	$('.footer').hide();
+	$('.mobileSmallMenu .nav').hide();
 
 	$(document).scroll(function() {				//captures scroll events
-		if ($(window).width() <= 768) {
+		if ($(window).width() <= 414) {
+			
 			return;
 		}
 
@@ -17,6 +19,16 @@ var main = function() {
 			$('.header').slideDown('fast');
 		}
 	});
+
+
+	$('.btnNav').click(function() {
+		$('.mobileSmallMenu .nav').slideToggle('fast');
+	})
+
+
+	$('.mobileSmallMenu li a').click(function() {
+		$('.mobileSmallMenu .nav').slideUp('fast');
+	})
 
 
 	$('.btnTop').click(function() {

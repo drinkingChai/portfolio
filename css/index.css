@@ -183,33 +183,38 @@ html,body {
 }
 
 .mobileSmallMenu {
-	height: 40px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.mobileSmallMenu .container {
+	padding: 0;
+	margin: 0;
 }
 
 .mobileSmallMenu h5 {
-	float: left;
+	font-size: 20px;
+	text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+	display: inline-block;
+}
+
+.mobileSmallMenu img {
+	display: inline-block;
 }
 
 .mobileSmallMenu .nav {
-	float: right;
+	margin-top: 30px;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
 }
 
-.box-shadow-menu {
-	/*pseudo-box-shadow
-	credit: https://css-tricks.com/three-line-menu-navicon/
-	*/
-	position: relative;
-	padding-left: 1.25em;
+.mobileSmallMenu li {
+	border-top: 1px solid black;
 }
-.box-shadow-menu:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0.25em;
-	width: 1em;
-	height: 0.15em;
-	background: black;
-	box-shadow: 
-		0 0.25em 0 0 black,
-		0 0.5em 0 0 black;
+
+.mobileSmallMenu li a {
+	font-size: 20px;
+	text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+	padding: 30px;
 }
