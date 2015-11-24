@@ -22,12 +22,12 @@ var main = function() {
 
 
 	$('.btnNav').click(function() {
-		$('.mobileSmallMenu .nav').slideToggle('fast');
+		$('.mobileSmallMenu .nav').toggle();
 	})
 
 
 	$('.mobileSmallMenu li a').click(function() {
-		$('.mobileSmallMenu .nav').slideUp('fast');
+		$('.mobileSmallMenu .nav').hide();
 	})
 
 
