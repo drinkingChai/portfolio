@@ -2,6 +2,10 @@ var main = function() {
 	$('.footer').hide();
 
 	$(document).scroll(function() {				//captures scroll events
+		if ($(window).width() <= 768) {
+			return;
+		}
+
 		var y = $(this).scrollTop();			//gets the position of the top of the page
 		var mainTop = $('.main').offset().top;	//gets the position of the top of the main element
 		

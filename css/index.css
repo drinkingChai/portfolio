@@ -19,10 +19,6 @@ html,body {
 	color: #fff;
 }
 
-.supporting {
-	padding: 60px 0 50px;
-}
-
 .header {
 	position: fixed;
 	background-color: rgba(244, 244, 244, 0.8);
@@ -69,12 +65,11 @@ html,body {
 	font-size: 13px;
 }
 
-/*header links*/
-.header ul {
+/*header and footer links*/
+.header ul, .footer ul {
 	float: right;
 }
 
-/*header and footer links*/
 .header li, .footer li {
 	display: inline-block;
 	margin: 0;
@@ -107,22 +102,18 @@ html,body {
 	position: fixed;
 	background-color: rgba(244, 244, 244, 0.8);
 	width: 100%;
-	bottom: -5px;
+	bottom: 0px;
 	text-align: center;
 }
 
-/*footer links*/
-.btnTop {
-	float: right;
-}
-
 .supporting.portfolio {
+	margin-top: 60px;
 	/*background: url(../img/backgrounds/geometry2.png) repeat;*/
 }
 
 .supporting.about {
 	background-color: rgb(244, 244, 244);
-	height: 320px;
+	margin-top: 30px;
 	padding: 60px 0;
 }
 
@@ -142,7 +133,7 @@ html,body {
 }
 
 .supporting.contact {
-	padding: 20px 0 60px 0;
+	padding: 30px 0 60px 0;
 }
 
 .contact h3, .contact h5, .contact p {
@@ -191,17 +182,34 @@ html,body {
 	background-color: #49c6f6;
 }
 
-@media (max-width: 600px) {
-	.supporting.about {
-		height: auto;
-	}
+.mobileSmallMenu {
+	height: 40px;
+}
 
-	.header li {
-		text-align: center;
-		width: 100%;
-	}
+.mobileSmallMenu h5 {
+	float: left;
+}
 
-	.header ul {
-		float: none;
-	}
+.mobileSmallMenu .nav {
+	float: right;
+}
+
+.box-shadow-menu {
+	/*pseudo-box-shadow
+	credit: https://css-tricks.com/three-line-menu-navicon/
+	*/
+	position: relative;
+	padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.25em;
+	width: 1em;
+	height: 0.15em;
+	background: black;
+	box-shadow: 
+		0 0.25em 0 0 black,
+		0 0.5em 0 0 black;
 }
