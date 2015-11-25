@@ -3,7 +3,7 @@ var main = function() {
 	$('.mobileSmallMenu .nav').hide();
 
 	$(document).scroll(function() {				//captures scroll events
-		if ($(window).width() <= 414) {
+		if ($(window).width() <= 1024) {
 			
 			return;
 		}
