@@ -5,6 +5,7 @@
 
 .mobileSmallMenu .titleContainer {
 	height: 70px;
+	border-bottom: 1px solid #c4c4c4;
 }
 
 .mobileSmallMenu .container {
@@ -43,7 +44,7 @@
 }
 
 .mobileSmallMenu li {
-	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
 }
 
 .mobileSmallMenu li a {

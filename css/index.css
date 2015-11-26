@@ -12,10 +12,14 @@ html,body {
 .main {
 	background-color: #36a5d8;
 	/*background: url(footer_lodyas.png) repeat;*/
-	height: 300px;
+	height: 430px;
 	padding-top: 90px;
 	text-align: center;
 	color: #fff;
+}
+
+.main img {
+	max-width: 75px;
 }
 
 .main h1 {
@@ -109,9 +113,26 @@ html,body {
 	text-align: center;
 }
 
-.supporting.portfolio {
+.portfolio {
 	margin-top: 60px;
 	/*background: url(../img/backgrounds/geometry2.png) repeat;*/
+	text-align: center;
+	color: #5b5b5b;
+}
+
+.portfolio .col-md-6 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.portfolio h3 {
+	font-style: italic;
+	width: 100%;
+}
+
+.portfolio hr {
+	width: 40%;
+	border-top: 1px solid #969696;
 }
 
 .portfolio .thumbnail {
