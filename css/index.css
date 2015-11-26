@@ -10,13 +10,16 @@ html,body {
 }
 
 .main {
-	background: url(../img/backgrounds/cover3.JPG) no-repeat center center;
-	background-size: cover;
+	background-color: #36a5d8;
 	/*background: url(footer_lodyas.png) repeat;*/
-	height: 500px;
-	padding-top: 200px;
+	height: 300px;
+	padding-top: 90px;
 	text-align: center;
 	color: #fff;
+}
+
+.main h1 {
+	font-size: 60px;
 }
 
 .header {
@@ -109,6 +112,11 @@ html,body {
 .supporting.portfolio {
 	margin-top: 60px;
 	/*background: url(../img/backgrounds/geometry2.png) repeat;*/
+}
+
+.portfolio .thumbnail {
+	border: none;
+	background: transparent;
 }
 
 .supporting.about {
