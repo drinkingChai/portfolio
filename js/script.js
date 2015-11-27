@@ -4,7 +4,6 @@ var main = function() {
 
 	$(document).scroll(function() {				//captures scroll events
 		if ($(window).width() <= 1024) {
-			
 			return;
 		}
 
