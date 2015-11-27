@@ -39,8 +39,8 @@
 	float: right;
 	border-left: 1px solid #c4c4c4;
 	height: 100%;
-	padding: 20px 16px;
-	width: 70px;
+	padding: 22px 20px;
+	font-size: 25px;
 }
 
 .mobileSmallMenu li {
