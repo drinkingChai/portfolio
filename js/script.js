@@ -1,4 +1,5 @@
 var main = function() {
+	//test change
 	$('.footer').hide();
 	$('.mobileSmallMenu .nav').hide();
 
